@@ -1,6 +1,10 @@
-# Game of Mole in JS
+# Game of Mole in JS.
 
-Still need to fix the glitch that occurs when the moles reach a 2x2 steady state.
+Todo list:
+Fix 2x2 steady state glitch
+Score board
+Timer
+
 
 Fullstack Academy workshop.
 
