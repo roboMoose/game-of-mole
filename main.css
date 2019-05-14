@@ -1,0 +1,62 @@
+body {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#board{
+  border-collapse: collapse;
+  background-image: url(https://i.pinimg.com/736x/b9/4c/c9/b94cc9753e674518e4bb3ef1bc3fd9f3.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+
+#board td{
+  /* border: 1px solid #ddd; */
+  width: 25px;
+  height: 25px;
+}
+
+td.alive {
+  background-size: 25px;
+  background-image: url(./images/mole.png);
+  /* background-color: red; */
+}
+
+#control_panel {
+  margin: 10px 0 50px 0;
+}
+
+.button {
+  padding: 0.85em 1em;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #2ba6cb;
+  color: #fefefe;
+}
+
+.button:hover, .button:focus {
+  background-color: #258dad;
+}
+
+.button:focus {
+  outline: dashed 1px #2ba6cb;
+}
