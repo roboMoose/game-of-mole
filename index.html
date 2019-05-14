@@ -5,14 +5,18 @@
   <meta charset="utf-8">
   <title>Game of Mole - Fullstack Academy</title>
   <link rel="stylesheet" href="main.css">
-  <script src="GameOfLife.js" defer></script>
+  <script src="GameOfMole.js" defer></script>
   <script src="main.js" defer></script>
 </head>
 
 <body>
   <div id="container">
     <h1>Game of Mole</h1>
-    <h2 id="score">0</h2>
+    <div class = 'scoreBox'>
+        <h2>Score:</h2>
+        <h2 id="score">0</h2>
+    </div>
+
     <table id='board'></table>
 
     <div id='control_panel'>
@@ -23,7 +27,7 @@
     </div>
 
     <footer>
-      <p>Reenvisioned by Thom and Hugo at <a href="http://www.fullstackacademy.com/">Fullstack Academy</a></p>
+      <p>Reenvisioned by Hugo and Thom at <a href="http://www.fullstackacademy.com/">Fullstack Academy</a></p>
     </footer>
   </div>
 

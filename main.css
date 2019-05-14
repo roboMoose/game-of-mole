@@ -12,6 +12,12 @@ h2 {
   margin-top: 0;
 }
 
+.scoreBox{
+  display: flex;
+  width: 110px;
+  justify-content: space-around;
+}
+
 
 #container {
   display: flex;
