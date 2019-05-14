@@ -1,4 +1,4 @@
-# Game of Life in JS
+# Game of Mole in JS
 
 Fullstack Academy workshop.
 
