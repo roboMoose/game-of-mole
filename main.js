@@ -1,6 +1,8 @@
 const width = 20;
 const height = 15; // width and height dimensions of the board
 let score = 0;
+
+//set game state to off
 let running = false;
 
 /**
@@ -76,6 +78,8 @@ document.getElementById("board").addEventListener("click", event => {
   const row = event.target.dataset.row;
   const col = event.target.dataset.col;
 
+  //check game state is on and look for click events
+  //update score and reset cell
   if (running === true && !!gol.board[row][col]) {
     gol.board[row][col] = 0
     event.target.classList.remove('alive')
@@ -98,7 +102,7 @@ document.getElementById("play_btn").addEventListener("click", event => {
   setInterval(() => {
     gol.tick();
     paint();
-  }, 200)
+  }, 300)
 });
 
 document.getElementById("random_btn").addEventListener("click", event => {
