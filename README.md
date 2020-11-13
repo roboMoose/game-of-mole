@@ -6,5 +6,3 @@ Score board,
 Timer
 
 
-Fullstack Academy workshop.
-
